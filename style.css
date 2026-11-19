@@ -7,7 +7,7 @@ body {
     padding: 0;
     font-family: Calibri, Arial, sans-serif;
     color: #1a1a1a;
-    background-color: white;
+    background-color:#f5f2cc;
 }
 
 
@@ -47,13 +47,13 @@ a {
     height: 500px;
    border-color: black 10px;
    border-radius: 10px;
-  box-shadow: 10px 10px rgb(10, 10, 10);
+  box-shadow: 10px 10px rgb(39, 132, 117);
 
 }
 
 header {
     padding: 4rem 5%;
-    background-color: #1f2a37;
+    background-color: #0d6546 ;
     color: white;
     
 }
@@ -101,16 +101,16 @@ nav {
 .menu a {
     display: block;
     padding: 1rem;
-    background-color: #f2f2f2;
+    background-color:rgb(171, 139, 114);
     border: 1px solid #dddddd;
     border-radius: 12px;
-}
+     }
 
 a:hover{
-    background-color:#394453 ;
+    background-color:#0d6546 ;
     color: #dddddd;
     border-radius: 10px ;
-    box-shadow: #dddddd 4px 4px;
+    box-shadow:4px 4px rgb(39, 132, 117);
 }
 
 
@@ -126,6 +126,8 @@ a:hover{
     min-width: 300px;
     flex-shrink: 0;
     scroll-snap-align: start;
+    background-color: rgb(171, 139, 114);
+    box-shadow: 4px 4px #67460d;
 }
 
 
@@ -172,17 +174,26 @@ section>h3 {
 
 .bronce {
     border-top: 6px solid #b87333;
+
     
+}
+.bronce:hover{
+    background-color:#b87333 ;
 }
 
 .plata {
     border-top: 6px solid #a8a8a8;
 }
+.plata:hover{
+    background-color: #a8a8a8;
+}
 
 .gold {
     border-top: 6px solid #e0b84a;
 }
-
+.gold:hover{
+    background-color: #e0b84a;
+}
 form {
     display: block;
     width: 60%;
